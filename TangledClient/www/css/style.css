@@ -1,0 +1,50 @@
+.bar-stable.bar.bar-header{
+  position: relative;
+  background: url("/img/blueflowers.png");
+}
+
+.title.title-center.header-item{
+  font-size: 29px;
+  font-weight:bolder;
+  font-style: italic;
+  font-family: cursive;
+}
+
+.list.card{
+  position:fixed;
+  width: 400px;
+}
+
+.home{
+  background-color: lavender;
+}
+
+.icon.ion-android-arrow-dropright{
+  color: white;
+}
+
+.type1{
+  background: url("/img/type1banner.png");
+  background-repeat:no-repeat;
+}
+
+.type2{
+  background: url("/img/type2banner.png");
+  background-repeat:no-repeat;
+}
+
+.type3{
+  background: url("/img/type3banner.png");
+  background-repeat:no-repeat;
+}
+.type4{
+  background: url("/img/type4banner.png");
+  background-repeat:no-repeat;
+}
+
+.item.item-icon-right{
+  color: white;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: bold;
+}
