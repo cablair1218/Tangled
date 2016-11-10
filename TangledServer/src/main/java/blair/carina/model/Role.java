@@ -1,26 +1,29 @@
 package blair.carina.model;
 
 import javax.persistence.*;
+import java.util.HashSet;
 import java.util.Set;
 
 @Entity
-@Table(name="user_roles")
-public class Roles {
+@Table(name="roles")
+public class Role {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private Long roleId;
+    private Long id;
 
     private String role;
-    private Set<User> users;
+
+    @ManyToMany(mappedBy = "roles")
+    private Set<User> users = new HashSet<User>();
 
 
-    public Long getRoleId() {
-        return roleId;
+    public Long getId() {
+        return id;
     }
 
-    public void setRoleId(Long roleId) {
-        this.roleId = roleId;
+    public void setId(Long id) {
+        this.id = id;
     }
 
     public String getRole() {
@@ -31,7 +34,6 @@ public class Roles {
         this.role = role;
     }
 
-    @ManyToMany(mappedBy = "roles")
     public Set<User> getUsers() {
         return users;
     }

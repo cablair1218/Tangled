@@ -1,0 +1,48 @@
+
+.bar-royal{
+  background-image: url("/img/blueflowers.png");
+}
+ion-nav-title{
+  z-index: -1;
+  background-repeat:repeat;
+}
+.bar-header{
+  position: fixed;
+  height: 80px;
+  padding-top:40px ;
+}
+.bar-subheader{
+  position: relative;
+  padding-bottom:80px ;
+}
+.title.title-center.header-item {
+  font-family: cursive;
+  font-size: 43px;
+  font-style: italic;
+  font-variant: normal;
+  font-weight: bold;
+  line-height: 51.6px;
+  margin:25px;
+}
+.has-header{
+  top:80px
+}
+#footer{
+  position:fixed;
+  background-color: gray;
+}
+.push{
+  height: 155em;
+}
+.card{
+  position: relative;
+  float: left;
+  text-align: center;
+  background-color: transparent;
+}
+.home{
+  position: relative;
+  padding-left: 10%;
+  padding-top: 2%;
+
+}

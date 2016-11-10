@@ -1,8 +1,16 @@
 package blair.carina.model;
 
-/**
- * Created by carinablair on 10/4/16.
- */
+import javax.persistence.*;
+
+@Entity
+@Table(name="user_preferences")
 public class Preferences {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    private Long preferencesId;
+
+    private Long systemID;
+
 
 }

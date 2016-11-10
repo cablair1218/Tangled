@@ -1,7 +1,9 @@
 package blair.carina.repository;
 
-/**
- * Created by carinablair on 10/31/16.
- */
-public class UserRepository {
+
+import blair.carina.model.User;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface UserRepository extends JpaRepository<User, Long>{
+    User findByEmail(String email);
 }
