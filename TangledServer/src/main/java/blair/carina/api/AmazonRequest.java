@@ -15,13 +15,7 @@ public class AmazonRequest{
     /*
      * Your AWS Access Key ID, as taken from the AWS Your Account page.
      */
-    private final String AWS_ACCESS_KEY_ID = "AKIAIHWUGPE7AQ54YM3Q";
 
-    /*
-     * Your AWS Secret Key corresponding to the above ID, as taken from the AWS
-     * Your Account page.
-     */
-    private final String AWS_SECRET_KEY = "20rmZWO+UZesM9srugi4YIxpsxmUk9uuQ5jnNjuP";
 
     /*
      * Use the end-point according to the region you are interested in.
